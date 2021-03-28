@@ -11,8 +11,7 @@ class Solution(object):
             return nums2
         if n == 0 :
             return nums1
-        next1 = 0
-        next2 = 0
+        next1 = next2 =  0
         result = []
         while next1 < m and next2 < n:
             if nums1[next1]>nums2[next2]:
