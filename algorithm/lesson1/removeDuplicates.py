@@ -14,7 +14,7 @@ class Solution(object):
                 nums[p + 1] = nums[q]
                 p+=1
             q+=1
-        return nums[:p + 1]
+        return p+1
 
 
 if __name__ == '__main__':
