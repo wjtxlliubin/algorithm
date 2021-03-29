@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     result = Solution().mergeTwoLists(lnode1[0],lnode2[0])
 
-    next = result
-    while next.next:
-        print(next.val)
-        next = next.next
+    while result.next:
+        print(result.val)
+        result = result.next
+    print(result.val)
