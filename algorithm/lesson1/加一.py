@@ -1,5 +1,5 @@
 class Solution:
-    def plusOne(self, digits) :
+    def plusOne(self, digits):
         for i in range(len(digits) - 1, -1, -1):
             if digits[i] is not 9:
                 digits[i] += 1
@@ -10,6 +10,7 @@ class Solution:
                     digits.insert(0, 1)
                     return digits
 
+
 if __name__ == '__main__':
-    result = Solution().plusOne([9,9])
+    result = Solution().plusOne([9, 9])
     print(result)
